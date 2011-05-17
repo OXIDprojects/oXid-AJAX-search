@@ -1,0 +1,68 @@
+/* AJAX SEARCH */
+.search_drop {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #760036;
+    padding: 20px 15px 10px;
+    position: absolute;
+    top: 140px;
+    width: 565px;
+    z-index: 2000;
+}
+
+.search_drop .top {
+    background: url("../../img/popup_icon.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    font-size: 0;
+    height: 12px;
+    left: 135px;
+    line-height: 0;
+    position: absolute;
+    top: -12px;
+    width: 100%;
+}
+.search_drop .title {
+    color: #636365;
+    display: block;
+    font: bold 14px Arial;
+    padding: 0 0 10px 5px;
+}
+img, fieldset, #links li.last, #content #desc .txt li.last, #content .product_types .last td, #content .product_types .last td {
+    border: 0 none;
+}
+.search_drop .search_table {
+    float: left;
+    width: 540px;
+}
+.search_drop .search_table td {
+    border-bottom: 1px solid #DEDEDE;
+    padding: 2px 5px;
+    text-align: left;
+}
+.search_drop a.close {
+    float: right;
+}
+.search_drop .url{
+    color: #4D5F99;
+    font: bold 13px Arial;
+    padding: 0 0 2px;
+    text-decoration: none;
+}
+.search_drop .search_table td.price {
+    color: #434343;
+    font: bold 16px Arial;
+	width: 88px;
+}
+#live_search_drop{
+ text-decoration: underline;
+}
+.search_drop tr {
+    height: 64px;
+}
+.search_drop .frame {
+    float: left;
+    max-height: 410px;
+    min-height: 50px;
+    overflow: auto;
+    width: 100%;
+}
+/* END OF AJAX SEARCH */

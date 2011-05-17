@@ -1,0 +1,1 @@
+[{include file="inc/drop_search.tpl"}]
