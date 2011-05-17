@@ -52,9 +52,9 @@
 				}
 			}
 			if (navigator.userAgent.indexOf("MSIE") != -1){
-				xmlhttp.open("GET","[{ $oViewConf->getHomeLink() }]index.php?cl=search_drop&searchparam="+UTF8.encode(str),true);
+				xmlhttp.open("GET","[{ $oViewConf->getBaseDir() }]index.php?cl=search_drop&searchparam="+UTF8.encode(str),true);
 			}else{
-				xmlhttp.open("GET","[{ $oViewConf->getHomeLink() }]index.php?cl=search_drop&searchparam="+UTF8.decode(str),true);
+				xmlhttp.open("GET","[{ $oViewConf->getBaseDir() }]index.php?cl=search_drop&searchparam="+UTF8.decode(str),true);
 			}
 			
 			xmlhttp.send();
