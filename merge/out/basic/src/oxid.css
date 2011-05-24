@@ -1,10 +1,10 @@
 /* AJAX SEARCH */
 .search_drop {
     background: none repeat scroll 0 0 #FFFFFF;
-    border: 2px solid #760036;
+    border: 2px solid #760036; // Rëmelio spalva
     padding: 20px 15px 10px;
     position: absolute;
-    top: 140px;
+    top: 140px; // Popupo aukstis
     width: 565px;
     z-index: 2000;
 	box-shadow: 5px 5px 5px #888;
@@ -15,7 +15,7 @@
     float: left;
     font-size: 0;
     height: 12px;
-    left: 135px;
+    left: 135px; // Rodyklës pozicija
     line-height: 0;
     position: absolute;
     top: -12px;
